@@ -1,0 +1,48 @@
+﻿
+body
+{
+    margin: 0;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.slideshow{
+    flex: 1;
+    position: relative;
+}
+
+.slide {
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 800px;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px 0 10px 0;
+}
+
+.header select{
+    font-size: 1rem;
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+
+.animal {
+    display: flex;
+    flex-direction: row;
+    background-color: darkgrey;
+}
